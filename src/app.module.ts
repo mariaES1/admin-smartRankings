@@ -11,7 +11,7 @@ import { PlayerSchema } from './interfaces/players/player.schema';
       'mongodb+srv://Maria:DlkcN4qR7VhlH8Sw@cluster0.uvx5v.mongodb.net/srAdmin?retryWrites=true&w=majority',
     ),
     MongooseModule.forFeature([
-      { name: 'Cetegory', schema: CategoriesSchema },
+      { name: 'Category', schema: CategoriesSchema },
       { name: 'Player', schema: PlayerSchema },
     ]),
   ],
